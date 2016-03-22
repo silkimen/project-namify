@@ -1,0 +1,23 @@
+{
+  "name": "project-namify",
+  "version": "0.1.0",
+  "description": "codename generator for your project; tribute to mpj (Mattias Petter Johansson)",
+  "main": "namify.js",
+  "bin": {
+    "project-namify": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sefa Ilkimen <sefa.ilkimen@mobisys.de>",
+  "contributors": [{
+    "name": "Jochen Becker"
+  }, {
+    "name": "Sefa Ilkimen"
+  }],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "jsdom": "^8.1.0"
+  }
+}
